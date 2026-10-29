@@ -1000,7 +1000,7 @@ else:
 """)
     st.subheader("Sources and reproducibility")
     st.markdown(
-        "Crime: [data.police.uk](https://data.police.uk/). Boundaries: [ONS Open Geography Portal](https://geoportal.statistics.gov.uk/). Full source notes and commands are in `docs/METHODOLOGY.md` and `README.md` in the project download."
+        "Crime: [data.police.uk](https://data.police.uk/). Boundaries: [ONS Open Geography Portal](https://geoportal.statistics.gov.uk/). Full source notes and commands are in `README.md` in the project download."
     )
     st.caption(
         "Boundaries supplied with the project: ONS LSOA 2021 BGC V5. Source: Office for National Statistics, Open Government Licence v3.0. Contains OS data © Crown copyright and database right 2026. Map tiles © OpenStreetMap contributors."
