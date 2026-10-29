@@ -1,5 +1,9 @@
 # Predicting crime hotspots in Cleveland
 
+**[Open the app](https://cleveland-crime-hotspot-prediction.streamlit.app/)**
+
+![Cleveland crime hotspot explorer](images/app_preview.png)
+
 This project investigates how well machine learning and time-series models can predict next-month crime hotspots across the Cleveland Police force area. It includes the original research notebooks, data and results, alongside a Streamlit app for exploring the predictions interactively.
 
 ## Data and approach
