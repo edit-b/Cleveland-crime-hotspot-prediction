@@ -1,0 +1,4 @@
+zone_width,n,xgb_right_base_wrong,base_right_xgb_wrong,p_value,significant
+10,168,45,22,0.006741447363103123,True
+15,248,54,32,0.02298259190715704,True
+20,328,57,35,0.02801690195894671,True

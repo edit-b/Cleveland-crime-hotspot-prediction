@@ -1,0 +1,61 @@
+{
+  "run": "portfolio_v1",
+  "seed": 100,
+  "n_areas": 359,
+  "hotspot_count": 36,
+  "train_observation_months": [
+    "2023-07",
+    "2025-06"
+  ],
+  "train_target_months": [
+    "2023-08",
+    "2025-07"
+  ],
+  "test_observation_months": [
+    "2025-07",
+    "2026-02"
+  ],
+  "test_target_months": [
+    "2025-08",
+    "2026-03"
+  ],
+  "validation_observation_months": [
+    "2025-01",
+    "2025-06"
+  ],
+  "inner_train_target_end": "2025-01",
+  "validation_target_start": "2025-02",
+  "xgboost_parameters": {
+    "n_estimators": 400,
+    "max_depth": 4,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "xgboost_threshold": 0.5750000000000002,
+  "validation_f1": 0.7608695652173914,
+  "reproduction_xgboost_parameters": {
+    "n_estimators": 300,
+    "max_depth": 4,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8
+  },
+  "reproduction_xgboost_threshold": 0.7250000000000003,
+  "arima_fit_status_counts": {
+    "converged": 3199,
+    "non_converged": 32
+  },
+  "submitted_metric_matches": false,
+  "input_sha256": "8a23d00261a08a8c3cf95599a9024a04be5b0608448a6e3ab1486ce8e8696286",
+  "python": "3.11.7",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.15.2",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.2.0",
+    "statsmodels": "0.14.6"
+  },
+  "interpretation": "Retrospective one-month-ahead evaluation; observation-month data assumed complete. Not a live operational forecast."
+}

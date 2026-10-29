@@ -1,0 +1,6 @@
+feature,corr_with_next_change
+crime_change,-0.33092014200538206
+crime_rolling_3,-0.010573939055718668
+crime_lag_1,-0.033554284620951454
+spatial_lag_crime,-0.019048956068649092
+crime_count,-0.17474687488844598

@@ -1,0 +1,8 @@
+-r requirements.txt
+scikit-learn==1.8.0
+xgboost==3.4.1
+statsmodels==0.15.0
+geopandas==1.2.0
+scipy==1.17.0
+shapely==2.2.0
+pyproj==3.8.0

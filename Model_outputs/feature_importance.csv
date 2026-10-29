@@ -1,0 +1,16 @@
+feature,importance
+crime_rolling_3,0.39121297
+crime_lag_1,0.08759419
+hotspot_lag_1,0.052364867
+crime_lag_2,0.03664757
+crime_change,0.030211134
+month_sin,0.027930338
+temp_min,0.02372593
+crime_lag_3,0.023528434
+temp_mean,0.022205215
+la_Stockton-on-Tees,0.02093865
+la_Redcar and Cleveland,0.020171594
+income_decile,0.019341864
+la_Middlesbrough,0.019329552
+temp_max,0.01920422
+housing_decile,0.019001039
